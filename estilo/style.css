@@ -1,0 +1,96 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --font1: 'Comfortaa', sans-serif;
+    --cor1: #1c6c7d;
+    --cor2:#ffa02f;
+}
+
+body{
+    background-image: url(../imagens/fundo.jpg);
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.395);
+}
+
+
+
+h1{
+    color: white;
+    font-family:var(--font1);
+    font-size: 4em;
+
+    padding-bottom: 50px;
+}
+
+.formulario{
+    width: 350px;
+    height: 450px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 50px;
+}
+
+/* Inputs */
+.entrada{
+    width: 320px;
+    height: 45px;
+
+    border: none;
+    border-left: 7px solid var(--cor2);
+
+    margin:5px;
+}
+
+.entrada::placeholder{
+    padding-left: 6px;
+    font-size: 1.1em;
+    font-family: var(--font1);
+}
+
+.botao{
+    width: 320px;
+    height: 50px;
+
+    border-radius: 5px;
+    border: none;
+
+    color: white;
+    background-color: var(--cor2);
+
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.3em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(83, 83, 234);
+}
